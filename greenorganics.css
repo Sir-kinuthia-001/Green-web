@@ -1,0 +1,111 @@
+@media (min-width: 1200px) {
+}
+@media (min-width: 1000px) {
+}
+@media (min-width: 900px) {
+}
+@media (min-width: 600px) {
+}
+@media (min-width: 599px) {
+}
+body {
+  background-color: #004156;
+}
+body, html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #004156;
+  border-radius: 50px;
+  box-shadow: 10px 24px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.44);
+}
+li {
+  float: left;
+}
+a {
+  margin-right: 20px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #2398AB;
+}
+.about-card{
+  height: 600px;
+  width: 90%;
+  margin: 5%;
+  background-color: #fff;
+  border-radius: 50px;
+  overflow-x: hidden;
+}
+.pns-card {
+  right: 0;
+  flex: 0 0 auto;
+  margin: 25px;
+  position: relative;
+  float: left;
+  display: inline-block;
+  height: 250px;
+  width: 190px;
+  background-color: #004156;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.pns-card:hover {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.11);
+}
+.Products {
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 350px;
+/* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.Products::-webkit-scrollbar {
+  display: none;
+}
+.position{
+  position: relative;
+  left: 20%;
+}
+.services{
+  position: relative;
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 350px;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.services::-webkit-scrollbar{
+  display: none;
+}
+.img-resize {
+  /*background-color: #fff;*/
+  position: relative;
+  left: 10px;
+  height: 250px;
+  color: green;
+  width: 170px;
+  border-radius: 8px;
+  opacity: 0.5;
+}
+.img-resize:hover {
+  transition: all 0.3s ease-in;
+  height: 255px;
+  width: 175px;
+  opacity: 1;
+}
