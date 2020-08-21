@@ -6,12 +6,12 @@
 }
 @media (min-width: 600px) {
 }
-@media (min-width: 599px) {
-}
+
 body {
   background-color: #004156;
 }
-body, html{
+body,
+html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -22,7 +22,8 @@ ul {
   overflow: hidden;
   background-color: #004156;
   border-radius: 50px;
-  box-shadow: 10px 24px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.44);
+  box-shadow: 10px 24px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.44);
 }
 li {
   float: left;
@@ -38,9 +39,9 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #2398AB;
+  background-color: #2398ab;
 }
-.about-card{
+.about-card {
   height: 600px;
   width: 90%;
   margin: 5%;
@@ -69,18 +70,18 @@ li a:hover {
   display: flex;
   flex-wrap: nowrap;
   height: 350px;
-/* Hide scrollbar for IE, Edge and Firefox */
+  /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
 .Products::-webkit-scrollbar {
   display: none;
 }
-.position{
+.position {
   position: relative;
   left: 20%;
 }
-.services{
+.services {
   position: relative;
   overflow-x: auto;
   display: flex;
@@ -90,7 +91,7 @@ li a:hover {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-.services::-webkit-scrollbar{
+.services::-webkit-scrollbar {
   display: none;
 }
 .img-resize {
